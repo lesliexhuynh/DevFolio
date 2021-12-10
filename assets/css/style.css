@@ -16,9 +16,8 @@ body {
 
 @font-face {
   font-family: atami stencil;
-  src: url(fonts/Atami-Stencil.woff);
+  src: url(fonts/Atami-Stencil.woff) format ("woff");
 }
-
 h1 {
   font-family: atami stencil;
 }
@@ -38,11 +37,9 @@ h5 {
 h6 {
   color: #1e1e1e;
 }
-
 p {
   font-family: poppins;
 }
-
 a {
   color: #1e1e1e;
   text-decoration: none;
@@ -54,25 +51,20 @@ a:hover {
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
-
 .p-r {
   position: relative;
 }
-
 .color-a {
   text-decoration: none;
   color: #2a4494;
 }
-
 .color-d {
   color: #f5f5f5;
 }
-
 .color-text-a {
   text-decoration: none;
   color: #4e4e4e;
 }
-
 .box-shadow,
 .card-blog,
 .work-box,
@@ -80,32 +72,27 @@ a:hover {
 .paralax-mf {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
-
 .box-shadow-a,
 .button:hover {
   text-decoration: none;
   box-shadow: 0 0 0 4px #cde1f8;
 }
-
 .display-5 {
   font-size: 2.5rem;
   font-weight: 300;
   line-height: 1.1;
 }
-
 .display-6 {
   font-size: 2rem;
   font-weight: 300;
   line-height: 1.1;
 }
-
 .avatar {
   width: 32px;
   height: 32px;
   margin-right: 4px;
   overflow: hidden;
 }
-
 .bg-image {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -117,11 +104,9 @@ a:hover {
     background-attachment: scroll;
   }
 }
-
 .overlay-mf {
   background-color: #71ace1;
 }
-
 .overlay-mf {
   position: absolute;
   top: 0;
@@ -131,60 +116,52 @@ a:hover {
   width: 100%;
   opacity: 0.7;
 }
-
 .paralax-mf {
   position: relative;
   padding: 8rem 0;
 }
-
 .display-table {
   width: 100%;
   height: 100%;
   display: table;
 }
-
 .table-cell {
   display: table-cell;
   vertical-align: middle;
 }
 
-/*--/ Sections /--*/
+/*--/ Sections /--*
 .sect-4 {
   padding: 4rem 0;
 }
-
 .sect-pt4 {
   padding-top: 4rem;
 }
-
 .sect-mt4 {
   margin-top: 4rem;
 }
 
-/*--/ Title s /--*/
+/*--/ Title s /--*
 .title-s {
   font-weight: 600;
   color: #1e1e1e;
   font-size: 1.1rem;
 }
 
-/*--/ Title A /--*/
+/*--/ Title A /--*
 .title-box {
   margin-bottom: 4rem;
 }
-
 .title-a {
   text-decoration: none;
   font-size: 3rem;
   font-weight: medium;
   text-transform: uppercase;
 }
-
 .subtitle-a {
   text-decoration: none;
   color: #4e4e4e;
 }
-
 .line-mf {
   width: 40px;
   height: 5px;
@@ -192,11 +169,10 @@ a:hover {
   margin: 0 auto;
 }
 
-/*--/ Title Left /--*/
+/*--/ Title Left /--*
 .title-box-2 {
   margin-bottom: 3rem;
 }
-
 .title-left {
   font-size: 2rem;
   position: relative;
@@ -210,11 +186,10 @@ a:hover {
   bottom: -12px;
 }
 
-/*------/ Box /------*/
+/*------/ Box /------*
 .box-pl2 {
   padding-left: 2rem;
 }
-
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
@@ -229,7 +204,7 @@ a:hover {
   }
 }
 
-/*------/ Socials /------*/
+/*------/ Socials /------*
 .socials {
   padding: 1.5rem 0;
 }
@@ -253,7 +228,7 @@ a:hover {
   transition: all 500ms ease;
 }
 
-/*------/ Ul resect /------*/
+/*------/ Ul resect /------*
 .ul-resect,
 .widget-tags ul,
 .widget-sidebar .list-sidebar,
@@ -265,7 +240,6 @@ a:hover {
   padding-left: 0;
   margin-bottom: 0;
 }
-
 .list-ico {
   line-height: 2;
 }
@@ -274,7 +248,7 @@ a:hover {
   margin-right: 10px;
 }
 
-/*------/ Ico Circle /------*/
+/*------/ Ico Circle /------*
 .ico-circle {
   height: 100px;
   width: 100px;
@@ -287,7 +261,7 @@ a:hover {
   display: block;
 }
 
-/*------/ Owl Carousel /------*/
+/*------/ Owl Carousel /------*
 .owl-theme .owl-dots {
   text-align: center;
   margin-top: 18px;
@@ -313,7 +287,7 @@ a:hover {
   width: 25px;
 }
 
-/*--/ Scrolltop s /--*/
+/*--/ Scrolltop s /--*
 .scrolltop-mf {
   position: relative;
   display: none;
@@ -339,7 +313,7 @@ a:hover {
 
 /*--------------------------------------------------------------
 # Back to top button
---------------------------------------------------------------*/
+-------------------------------------------
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -367,7 +341,7 @@ a:hover {
   opacity: 1;
 }
 
-/*------/ Prelaoder /------*/
+/*------/ Prelaoder /------*
 #preloader {
   position: fixed;
   top: 0;
@@ -378,7 +352,6 @@ a:hover {
   overflow: hidden;
   background: #fff;
 }
-
 #preloader:before {
   content: "";
   position: fixed;
@@ -392,7 +365,6 @@ a:hover {
   -webkit-animation: animate-preloader 1s linear infinite;
   animation: animate-preloader 1s linear infinite;
 }
-
 @-webkit-keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
@@ -401,7 +373,6 @@ a:hover {
     transform: rotate(360deg);
   }
 }
-
 @keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
@@ -410,7 +381,8 @@ a:hover {
     transform: rotate(360deg);
   }
 }
-/*------/ Button /------*/
+}
+/*------/ Button /------
 .button {
   display: inline-block;
   padding: 0.3rem 0.6rem;
@@ -433,23 +405,19 @@ a:hover {
   color: #fff;
   transition: all 500ms ease;
 }
-
 .button-a {
   text-decoration: none;
   background-color: #2a4494;
   color: #fff;
   border-color: #cde1f8;
 }
-
 .button-big {
   padding: 0.9rem 2.3rem;
   font-size: 1.2rem;
 }
-
 .button-rouded {
   border-radius: 5rem;
 }
-
 .btn-lg {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
@@ -459,7 +427,7 @@ a:hover {
 
 /*--------------------------------------------------------------
 # Header
---------------------------------------------------------------*/
+-------------------------------------------------------
 #header {
   transition: all 0.5s;
   z-index: 997;
@@ -485,10 +453,10 @@ a:hover {
 
 /*--------------------------------------------------------------
 # Navigation Menu
+----------------------------------------------
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
-*/
+*
 .navbar {
   padding: 0;
 }
@@ -608,8 +576,7 @@ a:hover {
 }
 
 /**
-* Mobile Navigation 
-*/
+*
 .mobile-nav-toggle {
   color: #fff;
   font-size: 28px;
@@ -618,12 +585,10 @@ a:hover {
   line-height: 0;
   transition: 0.5s;
 }
-
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
   }
-
   .navbar ul {
     display: none;
   }
@@ -710,7 +675,7 @@ a:hover {
 
 /*--------------------------------------------------------------
 # Hero Section
---------------------------------------------------------------*/
+-------------------------------------------------
 .hero {
   height: 100vh;
   position: relative;
@@ -752,7 +717,6 @@ a:hover {
 .hero .text-slider-items {
   display: none;
 }
-
 .hero-single {
   height: 350px;
 }
@@ -784,7 +748,7 @@ a:hover {
 
 /*--------------------------------------------------------------
 # About
---------------------------------------------------------------*/
+--------------------------------------------------------
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -801,7 +765,6 @@ a:hover {
     padding-left: 0rem;
   }
 }
-
 .skill-mf span {
   color: #4e4e4e;
 }
@@ -818,7 +781,7 @@ a:hover {
 
 /*--------------------------------------------------------------
 # Services
---------------------------------------------------------------*/
+-----------------------------------------------------
 .service-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
@@ -858,7 +821,7 @@ a:hover {
 
 /*--------------------------------------------------------------
 # Counter
---------------------------------------------------------------*/
+------------------------------------------------------
 .counter-box {
   color: #fff;
   text-align: center;
@@ -868,7 +831,6 @@ a:hover {
     margin-bottom: 1.8rem;
   }
 }
-
 .counter-ico {
   margin-bottom: 1rem;
 }
@@ -878,7 +840,6 @@ a:hover {
   line-height: 1.5;
   box-shadow: 0 0 0 10px #cde1f8;
 }
-
 .counter-num .counter {
   font-size: 2rem;
   margin-bottom: 0;
@@ -886,7 +847,7 @@ a:hover {
 
 /*--------------------------------------------------------------
 # Portfolio
---------------------------------------------------------------*/
+----------------------------------------------------
 .work-box {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
@@ -896,7 +857,6 @@ a:hover {
 .work-box:hover img {
   transform: scale(1.3);
 }
-
 .work-img {
   display: block;
   overflow: hidden;
@@ -904,7 +864,6 @@ a:hover {
 .work-img img {
   transition: all 1s;
 }
-
 .work-content {
   padding: 2rem 3% 1rem 4%;
 }
@@ -926,14 +885,13 @@ a:hover {
 .work-content .w-like .num-like {
   font-size: 0.7rem;
 }
-
 .w-title {
   font-size: 1.2rem;
 }
 
 /*--------------------------------------------------------------
 # Portfolio Details
---------------------------------------------------------------*/
+--------------------------------------------
 .portfolio-details {
   padding-top: 40px;
 }
@@ -993,7 +951,7 @@ a:hover {
 
 /*--------------------------------------------------------------
 # Testimonials
---------------------------------------------------------------*/
+-------------------------------------------------
 .testimonial-box {
   color: #fff;
   text-align: center;
@@ -1038,7 +996,6 @@ a:hover {
     padding: 0 13rem;
   }
 }
-
 .swiper-pagination {
   margin-top: 20px;
   position: relative;
@@ -1055,11 +1012,10 @@ a:hover {
 
 /*--------------------------------------------------------------
 # Contact
---------------------------------------------------------------*/
+------------------------------------------------------
 .footer-paralax {
   padding: 4rem 0 0 0;
 }
-
 .contact-mf {
   margin-top: 4rem;
 }
@@ -1069,7 +1025,6 @@ a:hover {
     padding-left: 0rem;
   }
 }
-
 .php-email-form .error-message {
   display: none;
   color: #fff;
@@ -1131,7 +1086,6 @@ a:hover {
 .php-email-form button[type="submit"]:hover {
   background: #3393ff;
 }
-
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1140,7 +1094,6 @@ a:hover {
     transform: rotate(360deg);
   }
 }
-
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1149,9 +1102,10 @@ a:hover {
     transform: rotate(360deg);
   }
 }
+}
 /*--------------------------------------------------------------
 # Blog
---------------------------------------------------------------*/
+---------------------------------------------------------
 @media (min-width: 767px) {
   .card-blog {
     margin-bottom: 3rem;
@@ -1203,7 +1157,7 @@ a:hover {
 
 /*--------------------------------------------------------------
 # Blog Single
---------------------------------------------------------------*/
+--------------------------------------------------
 .post-box,
 .form-comments,
 .box-comments,
@@ -1220,7 +1174,6 @@ a:hover {
     padding: 3rem;
   }
 }
-
 .blog-wrapper .article-title {
   font-size: 1.5rem;
 }
@@ -1252,7 +1205,7 @@ a:hover {
   font-style: italic;
 }
 
-/*------/ Comments /------*/
+/*------/ Comments /------*
 .box-comments .list-comments li {
   padding-bottom: 40px;
 }
@@ -1288,7 +1241,7 @@ a:hover {
   margin-left: 40px;
 }
 
-/*------/ Sidebar /------*/
+/*------/ Sidebar /------*
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;
@@ -1310,7 +1263,6 @@ a:hover {
   background-color: #2a4494;
   top: 20px;
 }
-
 .sidebar-search input {
   background-color: #fff;
   border-radius: 0;
@@ -1323,7 +1275,6 @@ a:hover {
   padding-left: 20px;
   padding-right: 20px;
 }
-
 .widget-tags ul li {
   display: inline-block;
   background-color: #2a4494;
@@ -1337,7 +1288,7 @@ a:hover {
 
 /*--------------------------------------------------------------
 # Footer
---------------------------------------------------------------*/
+-------------------------------------------------------
 footer {
   text-align: center;
   color: #fff;
